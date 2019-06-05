@@ -28,11 +28,11 @@ const ProductListing = () => {
           <div className="wine-select">
             {data.map((wine) =>
               <div className="offerChoice" key={wine.itemCode}>
-              <input type="radio" className="radio" name="wineSelect" data-bom={wine.itemCode} value={wine.product.colourId} />
-              <b>{wine.product.name}</b> + 2 BONUS Bottles &amp; Glasses <b>JUST {wine.product.skus[0].salePrice}</b>
-              <a href="#" className="toggle-single-wine-modal" data-bom={wine.itemCode} data-title={wine.product.name}
-                 data-toggle="modal" data-target="#single-wine-modal" >view wines</a>
-            </div>)}
+                <input type="radio" className="radio" name="wineSelect" data-bom={wine.itemCode} value={wine.product.colourId} />
+                <b>{wine.product.name}</b> + 2 BONUS Bottles &amp; Glasses <b>JUST {wine.product.skus[0].salePrice}</b>
+                <a href="#" className="toggle-single-wine-modal" data-bom={wine.itemCode} data-title={wine.product.name}
+                   data-toggle="modal" data-target="#single-wine-modal" >view wines</a>
+              </div>)}
           </div>
         </div>
       </div>
@@ -41,3 +41,10 @@ const ProductListing = () => {
 };
 
 export default ProductListing;
+
+
+
+
+
+
+
