@@ -1,7 +1,7 @@
 import React from 'react';
 import ProductListing from './ProductListing';
 import Alert from 'react-bootstrap/Alert';
-import './App.css';
+import './App.scss';
 
 function App() {
   return (
