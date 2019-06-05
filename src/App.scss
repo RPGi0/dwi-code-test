@@ -1,4 +1,6 @@
 #prodList {
+  margin: 20px;
+
   div {
     font-family: Raleway, 'Helvetica Neue', Arial, Helvetica, sans-serif;
   }
@@ -30,6 +32,8 @@
   #offer-content1-desktop{
     padding: 8px;
     margin: 20px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
     border-radius: 8px;
     box-shadow: 7px 6px 22px 0px rgba(125,121,125,1);
   }
@@ -75,4 +79,44 @@
   }
 
 
+}
+
+#zipFinder {
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  border-radius: 8px;
+  box-shadow: 7px 6px 22px 0px rgba(125,121,125,1);
+
+  .form-group {
+    padding: 15px;
+  }
+
+  label {
+    display: block;
+    margin-bottom: 5px;
+    margin-left: 8px;
+    font-size: 20px;
+  }
+
+  span {
+    color: red;
+  }
+
+  input[type=text] {
+    padding: 5px 10px;
+    margin: 8px 8px;
+    box-sizing: border-box;
+    display: inline-block;
+    font-size: 20px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    box-shadow: 5px 3px 6px darkgrey;
+  }
+
+  p {
+    padding-left: 5px;
+    display: inline-block;
+    font-size: 20px;
+  }
 }
