@@ -1,6 +1,6 @@
 import React from 'react';
-import ProductListing from './ProductListing';
-import ZipcodeAutoComplete from './ZipFinder';
+import ProductListing from './FunctionComponents/ProductListing';
+import ZipcodeAutoComplete from './FunctionComponents/ZipFinder';
 import './App.scss';
 
 function App() {
